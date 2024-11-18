@@ -1,0 +1,38 @@
+{
+    "MarsTaxi": {
+        "checkpoints": [
+            {
+                "steps": 499998,
+                "file_path": "results\\test2_v1\\MarsTaxi\\MarsTaxi-499998.onnx",
+                "reward": -345.23921022048364,
+                "creation_time": 1731084375.7851248,
+                "auxillary_file_paths": [
+                    "results\\test2_v1\\MarsTaxi\\MarsTaxi-499998.pt"
+                ]
+            },
+            {
+                "steps": 625573,
+                "file_path": "results\\test2_v1\\MarsTaxi\\MarsTaxi-625573.onnx",
+                "reward": -1053.6399372816086,
+                "creation_time": 1731084848.9879637,
+                "auxillary_file_paths": [
+                    "results\\test2_v1\\MarsTaxi\\MarsTaxi-625573.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 625573,
+            "file_path": "results\\test2_v1\\MarsTaxi.onnx",
+            "reward": -1053.6399372816086,
+            "creation_time": 1731084848.9879637,
+            "auxillary_file_paths": [
+                "results\\test2_v1\\MarsTaxi\\MarsTaxi-625573.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

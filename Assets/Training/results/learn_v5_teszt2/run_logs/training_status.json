@@ -1,0 +1,47 @@
+{
+    "MarsTaxi": {
+        "checkpoints": [
+            {
+                "steps": 499960,
+                "file_path": "results\\learn_v5_teszt2\\MarsTaxi\\MarsTaxi-499960.onnx",
+                "reward": -49.63949091891025,
+                "creation_time": 1731111969.8908975,
+                "auxillary_file_paths": [
+                    "results\\learn_v5_teszt2\\MarsTaxi\\MarsTaxi-499960.pt"
+                ]
+            },
+            {
+                "steps": 999952,
+                "file_path": "results\\learn_v5_teszt2\\MarsTaxi\\MarsTaxi-999952.onnx",
+                "reward": -49.31415889543646,
+                "creation_time": 1731112663.9536567,
+                "auxillary_file_paths": [
+                    "results\\learn_v5_teszt2\\MarsTaxi\\MarsTaxi-999952.pt"
+                ]
+            },
+            {
+                "steps": 1100296,
+                "file_path": "results\\learn_v5_teszt2\\MarsTaxi\\MarsTaxi-1100296.onnx",
+                "reward": -49.21264906724294,
+                "creation_time": 1731112807.5659149,
+                "auxillary_file_paths": [
+                    "results\\learn_v5_teszt2\\MarsTaxi\\MarsTaxi-1100296.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1100296,
+            "file_path": "results\\learn_v5_teszt2\\MarsTaxi.onnx",
+            "reward": -49.21264906724294,
+            "creation_time": 1731112807.5659149,
+            "auxillary_file_paths": [
+                "results\\learn_v5_teszt2\\MarsTaxi\\MarsTaxi-1100296.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "MarsTaxi": {
+        "checkpoints": [
+            {
+                "steps": 499990,
+                "file_path": "results\\learn_v1_2\\MarsTaxi\\MarsTaxi-499990.onnx",
+                "reward": -2.1321483993367725,
+                "creation_time": 1731085772.782603,
+                "auxillary_file_paths": [
+                    "results\\learn_v1_2\\MarsTaxi\\MarsTaxi-499990.pt"
+                ]
+            },
+            {
+                "steps": 999938,
+                "file_path": "results\\learn_v1_2\\MarsTaxi\\MarsTaxi-999938.onnx",
+                "reward": -3.6965485613956477,
+                "creation_time": 1731086527.0982199,
+                "auxillary_file_paths": [
+                    "results\\learn_v1_2\\MarsTaxi\\MarsTaxi-999938.pt"
+                ]
+            },
+            {
+                "steps": 1499973,
+                "file_path": "results\\learn_v1_2\\MarsTaxi\\MarsTaxi-1499973.onnx",
+                "reward": -7.481625861684822,
+                "creation_time": 1731087247.9431186,
+                "auxillary_file_paths": [
+                    "results\\learn_v1_2\\MarsTaxi\\MarsTaxi-1499973.pt"
+                ]
+            },
+            {
+                "steps": 1694176,
+                "file_path": "results\\learn_v1_2\\MarsTaxi\\MarsTaxi-1694176.onnx",
+                "reward": -17.887121704586765,
+                "creation_time": 1731087692.8277426,
+                "auxillary_file_paths": [
+                    "results\\learn_v1_2\\MarsTaxi\\MarsTaxi-1694176.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1694176,
+            "file_path": "results\\learn_v1_2\\MarsTaxi.onnx",
+            "reward": -17.887121704586765,
+            "creation_time": 1731087692.8277426,
+            "auxillary_file_paths": [
+                "results\\learn_v1_2\\MarsTaxi\\MarsTaxi-1694176.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

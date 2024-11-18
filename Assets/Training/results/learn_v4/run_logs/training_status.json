@@ -1,0 +1,65 @@
+{
+    "MarsTaxi": {
+        "checkpoints": [
+            {
+                "steps": 1999950,
+                "file_path": "results\\learn_v4\\MarsTaxi\\MarsTaxi-1999950.onnx",
+                "reward": 105.26861297751132,
+                "creation_time": 1731106034.8987362,
+                "auxillary_file_paths": [
+                    "results\\learn_v4\\MarsTaxi\\MarsTaxi-1999950.pt"
+                ]
+            },
+            {
+                "steps": 2499994,
+                "file_path": "results\\learn_v4\\MarsTaxi\\MarsTaxi-2499994.onnx",
+                "reward": 137.67995450389571,
+                "creation_time": 1731106710.256131,
+                "auxillary_file_paths": [
+                    "results\\learn_v4\\MarsTaxi\\MarsTaxi-2499994.pt"
+                ]
+            },
+            {
+                "steps": 2999982,
+                "file_path": "results\\learn_v4\\MarsTaxi\\MarsTaxi-2999982.onnx",
+                "reward": 30.117161414002787,
+                "creation_time": 1731107399.2363951,
+                "auxillary_file_paths": [
+                    "results\\learn_v4\\MarsTaxi\\MarsTaxi-2999982.pt"
+                ]
+            },
+            {
+                "steps": 3499945,
+                "file_path": "results\\learn_v4\\MarsTaxi\\MarsTaxi-3499945.onnx",
+                "reward": 16.235292099388175,
+                "creation_time": 1731108111.4331808,
+                "auxillary_file_paths": [
+                    "results\\learn_v4\\MarsTaxi\\MarsTaxi-3499945.pt"
+                ]
+            },
+            {
+                "steps": 3856305,
+                "file_path": "results\\learn_v4\\MarsTaxi\\MarsTaxi-3856305.onnx",
+                "reward": 14.440792115835043,
+                "creation_time": 1731108681.5163558,
+                "auxillary_file_paths": [
+                    "results\\learn_v4\\MarsTaxi\\MarsTaxi-3856305.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 3856305,
+            "file_path": "results\\learn_v4\\MarsTaxi.onnx",
+            "reward": 14.440792115835043,
+            "creation_time": 1731108681.5163558,
+            "auxillary_file_paths": [
+                "results\\learn_v4\\MarsTaxi\\MarsTaxi-3856305.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

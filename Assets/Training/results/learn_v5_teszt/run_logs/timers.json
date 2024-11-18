@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1731111173",
+        "python_version": "3.7.16 (default, Jan 17 2023, 16:06:28) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\thold\\.conda\\envs\\unity\\Scripts\\mlagents-learn configV5.yaml --run-id=learn_v5_teszt",
+        "mlagents_version": "0.28.0",
+        "mlagents_envs_version": "0.28.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.6",
+        "end_time_seconds": "1731111181"
+    },
+    "total": 7.570637199999999,
+    "count": 1,
+    "self": 0.012877999999997947,
+    "children": {
+        "run_training.setup": {
+            "total": 0.20715260000000058,
+            "count": 1,
+            "self": 0.20715260000000058
+        },
+        "TrainerController.start_learning": {
+            "total": 7.350606600000001,
+            "count": 1,
+            "self": 0.00012889999999909918,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 7.3504601,
+                    "count": 1,
+                    "self": 7.3504601
+                },
+                "TrainerController._save_models": {
+                    "total": 1.7600000001394278e-05,
+                    "count": 1,
+                    "self": 1.7600000001394278e-05
+                }
+            }
+        }
+    }
+}
